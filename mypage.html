@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<article>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+    <title>Moe's page</title>
+
+    <body>
+        <div class="header">
+           <a href="mypage.html"><img src="アートボード 1@2xのコピー.png" width=20% class="headerlogo"> </a>
+            <li>
+                <div class="headerlogo"><a href="profile.html">profile</a></div>
+                <div class="headerlogo"><a href="work.html">work</a></div>
+                <div class="headerlogo"><a href="recommend.html">recommend</a></div>
+                <div class="headerlogo"><a href="sns.html">sns</a></div>
+       </li>
+            </div>
+        </div>
+
+            <img src="ue.png" class="coast">
+
+            <h2>Welcome to my page ☺︎</h2>
+            <h2>Plz check out my<a href="profile.html">profile</a>, my <a href="work.html">work</a>,my <a href="recommend.html">reccomend</a> and my <a href="sns.html">sns</a>.</h2>
+<br>
+            <img src="shita.png" class="flags">
+        </div>
+
+   </body>
+    </article>
+
+    <script>
+        import Meta from '~/assets/jsmixins/meta'
+        
+        export default {
+          mixins: [Meta],
+          data() {
+            return {
+              meta: {
+                title: ''　introduction
+              },
+            }
+          }
+        }
+        </script>
+        
+        <style scoped>
+
+body{
+    font-family: 'Righteous', cursive;
+    background-color:white;
+    color:#707070;
+}
+
+.header{
+    top:0px;
+    left:0%;
+    background-color: #C897ff;
+    width:100%;
+    width:100%;
+    text-align: justify;
+}
+
+.header a{
+    color:white;
+    text-decoration: none;
+}
+
+.headerlogo{
+    display: inline-block;
+    padding-left:10px;
+}
+
+li{
+    font-family: 'Righteous', cursive;
+    font-size:20px;
+    list-style: none;
+    padding-top:4%;
+    padding-right:5px;
+    float:right;
+}
+
+ul{
+    list-style: none;
+    margin:2%;
+}
+
+.coast{
+    position: relative;
+    width:100%;
+}
+
+.flags{
+    position:relative;
+    width:100%;
+}
+
+h2{
+    text-align: center;
+    position:
+}
+
+a{
+    color: #f15bb5;
+    text-decoration: none;
+}
+a:hover {
+   color: #9400d3;
+   font-weight: bold;
+}
