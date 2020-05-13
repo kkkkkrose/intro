@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<script async src="//www.instagram.com/embed.js"></script>
+<article>
+ <head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="sample.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+    <title>Moe's profile</title>
+    
+  <body>
+    <div class="header">
+      <a href="mypage.html"><img src="アートボード 1@2xのコピー.png" width=20% class="headerlogo"> </a>
+       <li>
+           <div class="headerlogo"><a href="profile.html">profile</a></div>
+           <div class="headerlogo"><a href="work.html">work</a></div>
+           <div class="headerlogo"><a href="recommend.html">recommend</a></div>
+           <div class="headerlogo"><a href="sns.html">sns</a></div>
+  </li>
+   </div>
+   </div class="header">
+<br>
+   <div class="my">
+     my sns
+   </div>
+<br>
+<br>
+<br>
+<br>
+<h2>Twitter</h2>
+<div class="sns">
+<a class="twitter-timeline" data-width="345" data-height="450" data-theme="light" href="https://twitter.com/jussie_515?ref_src=twsrc%5Etfw">Tweets by jussie_515</a> <script async src="https://platform.twitter.com/widgets.js" data-chrome="noheader" charset="utf-8"></script>
+</div>
+<br>
+<br>
+<h2>Instagram</h2>
+<div class="sns">
+<a href="https://www.instagram.com/kkkkkrose/" target="_blank"><img src="IMG_6648.jpg" width=60%></a>
+<br>
+<br>
+<h2>VSCO</h2>
+<div class="sns"><a href="http://vsco.co/kkkkkrose/gallery" target=”_blank”><img src="vsco.co_kkkkkrose_gallery.jpeg" width=70%></a></div>
+<br>
+</body>
+</html>
+</article>
+
+<script>
+    import Meta from '~/assets/jsmixins/meta'
+    
+    export default {
+      mixins: [Meta],
+      data() {
+        return {
+          meta: {
+            title: ''　introduction
+          },
+        }
+      }
+    }
+    </script>
+    
+    <style scoped>
+
+
+body{
+    background-color:white;
+    color:#707070;
+    font-family: 'Righteous', cursive;
+}
+
+.header{
+    top:0px;
+    left:0%;
+    background-color: #C897ff;
+    width:100%;
+    width:100%;
+    text-align: justify;
+}
+
+.header a{
+    color:white;
+    text-decoration: none;
+}
+
+.headerlogo{
+    display: inline-block;
+    padding-left:10px;
+} 
+
+li{
+    font-family: 'Righteous', cursive;
+    font-size:15px;
+    list-style: none;
+    padding-top:4%;
+    padding-right:5px;
+    float:right;
+}
+
+ul{
+    list-style: none;
+    margin:2%;
+}
+
+.my{
+  font-family: 'Righteous', cursive;
+  font-size:310%;
+  color:#00f5d4;
+  float:right;
+  margin-right:3px;
+}
+
+h2{
+  text-align: center;
+}
+
+.sns{
+  float: center;
+  text-align:center;
+  width:100%;
+}
+
+.sns img{
+  text-align:center;
+}
+
+a{
+    color:#707070;
+    text-decoration: none;
+}
+a:hover {
+  color: #9400d3;
+  font-weight: bold;
+}
