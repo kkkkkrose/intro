@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<article>
+  <head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+    <title>Moe's profile</title>
+    
+  <body>
+    <div class="header">
+      <a href="mypage.html"><img src="アートボード 1@2xのコピー.png" width=20% class="headerlogo"> </a>
+       <li>
+           <div class="headerlogo"><a href="profile.html">profile</a></div>
+           <div class="headerlogo"><a href="work.html">work</a></div>
+           <div class="headerlogo"><a href="recommend.html">recommend</a></div>
+           <div class="headerlogo"><a href="sns.html">sns</a></div>
+  </li>
+       </div>
+   </div>
+   </div class="header">
+<br>
+   <div class="my">
+     my work
+   </div>
+   <br>
+   <br>
+   <br>
+   <h2>"2020webteam movie"</h2>
+   <video src="2020web.mp4" width=345px poster="スクリーンショット 2020-05-08 8.43.00.png" controls></video>
+   <br>
+   <br>
+   <h2>"lifework"</h2>
+   <img src="A9AA3C51-E89C-40AA-BB2D-F976D0D97299.jpeg" width=70%>
+   <br>
+   <br>
+   <h2>"outsider"</h2>
+   <img src="71F1C941-3483-417B-88B1-937DCCCED9F7.jpeg" width=70%>
+          </div>
+<br>
+<br>
+  </body>
+</html>
+</article>
+
+<script>
+    import Meta from '~/assets/jsmixins/meta'
+    
+    export default {
+      mixins: [Meta],
+      data() {
+        return {
+          meta: {
+            title: ''　introduction
+          },
+        }
+      }
+    }
+    </script>
+    
+    <style scoped>
+
+
+body{
+    background-color:white;
+    color:#707070;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+
+.header{
+    top:0px;
+    left:0%;
+    background-color: #C897ff;
+    width:100%;
+    width:100%;
+    text-align: justify;
+}
+
+
+.header a{
+    color:white;
+    text-decoration: none;
+}
+
+.headerlogo{
+    display: inline-block;
+    padding-left:10px;
+}
+
+li{
+    font-family: 'Righteous', cursive;
+    font-size:15px;
+    list-style: none;
+    padding-top:4%;
+    padding-right:5px;
+    float:right;
+}
+
+ul{
+    list-style: none;
+    margin:2%;
+}
+
+.my{
+  font-family: 'Righteous', cursive;
+  font-size:310%;
+  color:#826aed;
+  float:right;
+  margin-right:3px;
+}
+
+a{
+    color:#707070;
+    text-decoration: none;
+}
+a:hover {
+  color: #9400d3;
+  font-weight: bold;
+}
